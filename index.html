@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: #000000">
+        <!--Camera-->
+        <a-entity position="0 5 20">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <!--Background-->
+        <a-sky src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Hubble_ultra_deep_field.jpg"></a-sky>
+
+        <!--Floor and Wall-->
+        <a-entity>
+            <a-plane position="0 0 0" rotation="-90 0 0" width="20" height="20" color="grey" src="https://media.istockphoto.com/id/961966790/photo/black-wood-parquet-texture-background-old-panels.jpg?s=612x612&w=0&k=20&c=i_ErU9WGs8hZRZqcew8_ZOn6yh3_1KFP7qhw6pC-UI8="></a-plane>
+            <a-plane position="0 10 -10" rotation="0 0 0" width="20" height="20" color="grey" src="https://static01.nyt.com/images/2020/05/26/science/20SCI-GALAXY1/20SCI-GALAXY1-mediumSquareAt3X.jpg"></a-plane>
+        </a-entity>
+
+        <!--Paintings-->
+        <a-entity>
+            <a-box position="5 12 -10" color="grey" depth="0" height="3" width="3" src="https://miro.medium.com/v2/resize:fit:1200/0*1k4R5uS0CZJ8A0dN"></a-box>
+            <a-box position="0 12 -10" color="grey" depth="0" height="3" width="3" src="https://s7d1.scene7.com/is/image/CENODS/09911-feature3-venus?$responsive$&wid=700&qlt=90,0&resMode=sharp2"></a-box>
+            <a-box position="-5 12 -10" color="grey" depth="0" height="3" width="3" src="https://static.independent.co.uk/2021/10/04/17/newFile-6.jpg"></a-box>
+        </a-entity>
+
+        <!--Table-->
+        <a-entity>
+            <a-box position="-8 2.5 -9.875" color="grey" depth="0.25" height="5" width="4" src="https://t3.ftcdn.net/jpg/01/85/63/56/360_F_185635621_dUDJwMz90uJGNu1Epsi0X16TWR8014fU.jpg"></a-box>
+            <a-box position="-8 2.5 0.125" color="grey" depth="0.25" height="5" width="4" src="https://t3.ftcdn.net/jpg/01/85/63/56/360_F_185635621_dUDJwMz90uJGNu1Epsi0X16TWR8014fU.jpg"></a-box>
+            <a-box position="-8 4.5 -4.875" color="grey" depth="10" height="1" width="4" src="https://media.istockphoto.com/id/1140849318/photo/black-marble-texture-with-gold-pattern-background-design-for-cover-book-or-brochure-poster-or.jpg?s=612x612&w=0&k=20&c=h0nz4zi-t4RjgoIVr_kOcyqY1kr-ONowl7dykHYazas="></a-box>
+        </a-entity>
+
+        <!--Chair-->
+        <a-entity>
+            <a-box position="-5 1.5 -5.875" color="grey" depth="0.25" height="3" width="0.25" src="https://media.istockphoto.com/id/182484204/photo/dark-wood-texture.jpg?s=170667a&w=0&k=20&c=EPXC9UQa4LvNZgga1ZJGB79U5LnXC1sPVoEO4tnqvUo="></a-box>
+            <a-box position="-5 1.5 -3.875" color="grey" depth="0.25" height="3" width="0.25" src="https://media.istockphoto.com/id/182484204/photo/dark-wood-texture.jpg?s=170667a&w=0&k=20&c=EPXC9UQa4LvNZgga1ZJGB79U5LnXC1sPVoEO4tnqvUo="></a-box>
+            <a-box position="-3 1.5 -5.875" color="grey" depth="0.25" height="3" width="0.25" src="https://media.istockphoto.com/id/182484204/photo/dark-wood-texture.jpg?s=170667a&w=0&k=20&c=EPXC9UQa4LvNZgga1ZJGB79U5LnXC1sPVoEO4tnqvUo="></a-box>
+            <a-box position="-3 1.5 -3.875" color="grey" depth="0.25" height="3" width="0.25" src="https://media.istockphoto.com/id/182484204/photo/dark-wood-texture.jpg?s=170667a&w=0&k=20&c=EPXC9UQa4LvNZgga1ZJGB79U5LnXC1sPVoEO4tnqvUo="></a-box>
+            <a-cylinder position="-4 2.5 -4.875" color="grey" height="1" radius="1.6" src="https://media.istockphoto.com/id/830480660/video/4k-highly-detailed-particle-stream-loop.jpg?s=640x640&k=20&c=1iN_oQwNiD4ab1JlEVw7lknAKo_g5Tku8oudo3sPD8g="></a-cylinder>
+        </a-entity>
+
+        <!--Bed-->
+        <a-entity>
+            <a-box position="5 0.5 -2" color="grey" depth="16" height="1" width="10" src="https://thumbs.dreamstime.com/b/realistic-shiny-gold-texture-vector-pattern-142631383.jpg"></a-box>
+            <a-box position="5 1.25 -2" color="grey" depth="15.5" height="1" width="9.5" src="https://m.media-amazon.com/images/I/71s1o5KMv9L._AC_UF894,1000_QL80_.jpg"></a-box>
+            <a-box rotation="8 7 8" position="7 2 -9" color="grey" depth="0.25" height="4" width="4" src="https://5.imimg.com/data5/SELLER/Default/2022/7/AZ/MW/NO/186296/dyed-rayon-slub-500x500.jpeg"></a-box>
+            <a-box rotation="-3 8 8" position="3 3 -8" color="grey" depth="0.25" height="4" width="4" src="https://cdn.shopify.com/s/files/1/0558/3725/products/IMG_6283_288x.jpeg?v=1571438619"></a-box>
+            <a-box rotation="-6 7 -5" position="6 2.5 -7" color="grey" depth="0.25" height="3" width="4" src="https://t3.ftcdn.net/jpg/05/67/99/70/360_F_567997050_9xvWOlL2GK7ZHT2j9UFSIEFM37yhzjrs.jpg"></a-box>
+            <a-box position="5 1.25 -7" color="grey" depth="6" height="1.5" width="9.75" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoPTXrkyk1OX-Q3PoEI9_V59LJQrCPUFBb_Q&usqp=CAU"></a-box>
+        </a-entity>
+
+        <!--Hanging Planets-->
+        <a-entity>
+            <a-sphere position="-9 10 -8" color="grey" radius="1" src="https://cdn.glitch.com/850dd813-e5e9-4dd0-9751-38981ae74172%2Fsol.jpg?v=1604296185621"></a-sphere>
+            <a-sphere position="-9 12 -4" color="grey" radius="1" src="https://cdn.glitch.com/850dd813-e5e9-4dd0-9751-38981ae74172%2Fjupiter.jpg?v=1604312404561"></a-sphere>
+            <a-sphere position="-9 10 0" color="grey" radius="1" src="https://cdn.glitch.com/850dd813-e5e9-4dd0-9751-38981ae74172%2Fsaturn.png?v=1604312433927"></a-sphere>
+            <a-sphere position="-9 12 4" color="grey" radius="1" src="https://cdn.glitch.com/850dd813-e5e9-4dd0-9751-38981ae74172%2Fvenus.jpg?v=1604312437571"></a-sphere>
+            <a-sphere position="-9 10 8" color="grey" radius="1" src="https://cdn.glitch.com/850dd813-e5e9-4dd0-9751-38981ae74172%2Fmercurio.jpg?v=1604298142259"></a-sphere>
+            <a-cylinder position="-9 15 -8" color="white" height="10" radius="0.01"></a-cylinder>
+            <a-cylinder position="-9 16 -4" color="white" height="8" radius="0.01"></a-cylinder>
+            <a-cylinder position="-9 15 0" color="white" height="10" radius="0.01"></a-cylinder>
+            <a-cylinder position="-9 16 4" color="white" height="8" radius="0.01"></a-cylinder>
+            <a-cylinder position="-9 15 8" color="white" height="10" radius="0.01"></a-cylinder>
+        </a-entity>
+
+        <!--Table Stool-->
+        <a-entity>
+            <a-torus-knot position="-7 1.4 7" color="grey" arc="180" p="2" q="7" radius="1" radius-tubular="0.05" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFyjby_P90J_EDEjUXuyhWZ8UGILMMo_lrbewx82L3U35iWDIfgTHR2MSddG4_GSD0DQY&usqp=CAU"></a-torus-knot>
+            <a-cylinder position="-7 3 7" color="grey" height="0.5" radius="2" src="https://media.istockphoto.com/id/1267129847/video/closeup-of-abstract-chromatic-fluid-waves-background-liquid-holographic-colorful-texture.jpg?s=640x640&k=20&c=RxGPzYDGUMIctCmGNvCg6M9Mi1uRihS_Eqfla9Dq7gU="></a-cylinder>
+            <a-sphere position="-7 4.25 7" color="grey" radius="1" src="https://investingnews.com/media-library/image.jpg?id=33277581"></a-sphere>
+        </a-entity>
+     </a-scene>
+  </body>
+</html>
